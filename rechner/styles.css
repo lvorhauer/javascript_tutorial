@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: digit;
+    src: url(Digital7-1e1Z.ttf);
+  }
+
+.buttons
+{
+    display:grid;;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    width:400px;
+}
+
+.buttons input
+{
+    display: block;
+    font-family: digit;
+    font-size: 20px;
+}
+
+.button_0
+{
+    grid-column: 1 / span 2;
+}
+
+input.input_text
+{
+    grid-column: 1 / span 4;
+    font-size:80px;
+    background-color: black;
+    color:#ffffff;
+    font-family: digit;
+}
+.button_ent
+{
+    grid-column: 4;
+    grid-row: 5 / span 2;
+}
+.button_p
+{
+    grid-column: 4;
+    grid-row: 3 / span 2;
+}
+
